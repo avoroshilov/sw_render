@@ -1,0 +1,6 @@
+/_interm/*
+/_out/*
+/_backup/*
+/.vs/*
+/render.VC.db
+/render.VC.VC.opendb
