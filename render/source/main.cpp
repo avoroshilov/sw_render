@@ -435,7 +435,7 @@ int WINAPI WinMain(HINSTANCE hInst,HINSTANCE hPrevInst,
 	uint width = 640, height = 480, bpp = 32;
 
 	mainWindow.setResizeable(false);
-	mainWindow.setParameters(width, height, false);
+	mainWindow.setParameters(width, height, Window::Kind::eWindowed);
 	mainWindow.setTitle(L"Window title");
 	mainWindow.init(true);
 
